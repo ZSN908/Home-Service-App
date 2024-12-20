@@ -2,17 +2,18 @@ import 'dart:developer';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:home_service/providers/user_provider.dart';
-import 'package:home_service/services/cloudinary_service.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:home_service/utils/alert_utils.dart';
-import 'package:home_service/utils/auth_utils.dart';
-import 'package:home_service/widgets/custom_text_field.dart';
-import 'package:home_service/widgets/tiles_cards_buttons.dart';
-import 'package:image_picker/image_picker.dart';
 import 'package:image_cropper/image_cropper.dart';
+import 'package:image_picker/image_picker.dart';
+
+import '/providers/user_provider.dart';
+import '/services/cloudinary_service.dart';
+import '/utils/alert_utils.dart';
+import '/utils/auth_utils.dart';
+import '/widgets/custom_text_field.dart';
+import '/widgets/tiles_cards_buttons.dart';
 
 class ProfileScreen extends ConsumerStatefulWidget {
   final String uId;

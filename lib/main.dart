@@ -60,3 +60,23 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+// -------------------<Remaining>-------------------
+//   Bookings (Collection)
+//    ├── title : String
+//    ├── provider : String
+//    ├── price : String
+//    ├── size : String
+//    ├── status : String
+//    ├── paymethod : String
+//    ├── reason : String
+//    ├── createdAt : Timestamp
+
+
+//  flutter clean 
+//  flutter pub get
+//  flutter pub outdated
+//  flutter pub upgrade --major-versions
+// cd android
+// ./gradlew clean 
